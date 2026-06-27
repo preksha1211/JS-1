@@ -1,0 +1,43 @@
+.container{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+}
+.box{
+    display: flex;
+    gap:15px;
+    
+}
+
+.heading ,.color-display{
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    font-size: 40px;
+    text-align: center;
+   
+   
+
+   
+}
+.color-display{
+    font-size: 25px;
+    font-weight: 100;
+    width:300px;
+    margin:auto;
+    margin-top:20px;
+   
+    
+}
+
+.btn-1, .btn-2, .input{
+    font-size: 19px;
+    height:40px;
+}
+
+.btn-1, .btn-2{
+    background-color: aquamarine;
+    border: none;
+}
